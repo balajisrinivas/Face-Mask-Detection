@@ -6,7 +6,7 @@ This Program train to detect the face mask with help of openCV,Keras/TensorFlow,
 It helps to detect mask on faces in real-time potentially be used to help ensure your safety and the safety of others.
 
 # Service
-- Helps to detect face mask kin realTime.
+- Helps to detect face mask in realTime.
 - Works on any device, whether it be Windows, macOS, iOS, Linux.
 - Not Collect your personal data.
 - Not Contain malvare or any type of virus.
