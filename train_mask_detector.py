@@ -101,9 +101,7 @@ model.compile(loss="binary_crossentropy", optimizer=opt,
 print("[INFO] training head...")
 H = model.fit(
 	aug.flow(trainX, trainY, batch_size=BS),
-	steps_per_epoch=len(trainX) // BS,
 	validation_data=(testX, testY),
-	validation_steps=len(testX) // BS,
 	epochs=EPOCHS)
 
 # make predictions on the testing set
